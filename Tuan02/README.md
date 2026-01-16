@@ -61,19 +61,11 @@
   - Vẽ text: `image_fn.text(xy=(0, 0), text="box", fill=(0, 0, 0))`
   - Sử dụng `ImageFont` để quản lý font chữ
 - Thay đổi trên đối tượng `image_fn` sẽ tự động cập nhật `image_draw`
-
-#### 6. Chồng ảnh (Overlaying Images)
 - **Sử dụng NumPy array**: Gán pixel từ ảnh này vào vị trí cụ thể của ảnh khác
   - `array_lenna[upper:lower, left:right, :] = array[upper:lower, left:right, :]`
 - **Sử dụng PIL method**:
   - `image_lenna.paste(crop_image, box=(left, upper))`: Dán ảnh đã cắt vào vị trí chỉ định
 - Cho phép tạo hiệu ứng composite bằng cách kết hợp nhiều ảnh
-
-#### 7. Memory management với PIL
-- Tương tự NumPy array, PIL Image objects cũng có vấn đề aliasing
-- Sử dụng `image.copy()` để tạo bản sao độc lập
-- Kiểm tra: `id(image) == id(new_image)` trả về `True` nếu cùng địa chỉ nhớ
-- `id(image) == id(copy_image)` trả về `False` sau khi dùng `copy()`
 
 
 
