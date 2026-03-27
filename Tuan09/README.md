@@ -1,6 +1,3 @@
-<<<<<<< HEAD
-# Computer_Vision
-=======
 # THỊ GIÁC MÁY TÍNH – LAB 08: NHẬN DIỆN ĐỐI TƯỢNG TRONG VIDEO
 
 - **Sinh viên thực hiện**: Phạm Thế Hùng  
