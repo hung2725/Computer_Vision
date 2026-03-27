@@ -1,3 +1,6 @@
+<<<<<<< HEAD
+# Computer_Vision
+=======
 # THỊ GIÁC MÁY TÍNH – LAB 08: NHẬN DIỆN ĐỐI TƯỢNG TRONG VIDEO
 
 - **Sinh viên thực hiện**: Phạm Thế Hùng  
@@ -43,10 +46,8 @@
 
 - **Phát hiện đối tượng mạnh mẽ**: Mô hình RetinaNet hoạt động hiệu quả để theo vết, bắt dính các vật thể chuyển động có trong video `video_predetect.mp4`.
 - **Đầu ra Video**: Video kết quả `video_detected.mp4` được sinh ra thể hiện các khung màu hiển thị chính xác vị trí nhận dạng và tên của các đối tượng liên tục trên từng khung hình một cách mượt mà và trực quan.
-#### Video chưa được nhận diện
-<video src="video_predetect.mp4" controls width="400"></video>
-[![Watch]](video_predetect.mp4)
+#### ảnh ví dụ được cắt ra từ video chưa được nhận diện
+![ảnh ví dụ được cắt ra từ video chưa được nhận diện](img.png)
 
-#### Video đã được nhận diện
-<video src="2374802010164_PhamTheHung_0101_Lab08.mp4" controls width="400"></video>
-
+#### ảnh ví dụ được cắt ra từ video đã được nhận diện
+![ảnh ví dụ được cắt ra từ video đã được nhận diện](img2.png)
