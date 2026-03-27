@@ -1,6 +1,3 @@
-<<<<<<< HEAD
-# Computer_Vision
-=======
 # THỊ GIÁC MÁY TÍNH – LAB 08: NHẬN DIỆN ĐỐI TƯỢNG TRONG VIDEO
 
 - **Sinh viên thực hiện**: Phạm Thế Hùng  
@@ -52,4 +49,4 @@
 
 #### Video đã được nhận diện
 <video src="2374802010164_PhamTheHung_0101_Lab08.mp4" controls width="400"></video>
->>>>>>> db0bce1 (upload with LFS)
+
